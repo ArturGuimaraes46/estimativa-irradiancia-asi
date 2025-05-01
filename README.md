@@ -1,6 +1,6 @@
 #  ASI Solar Irradiance Estimation
 
-This repository contains the full pipeline developed by **Artur Guimarï¿½es**, a Master's student in Atmospheric and Climate Sciences and undergraduate in Electrical Engineering, for estimating **solar irradiance** using RGB **All-Sky images**. The project integrates methods from **computer vision**, **solar geometry**, and **statistical modeling** to quantify irradiance from sky luminance ï¿½ contributing to image-based forecasting in renewable energy.
+This repository contains the full pipeline developed by **Artur Guimarães**, a Master's student in Atmospheric and Climate Sciences and undergraduate in Electrical Engineering, for estimating **solar irradiance** using RGB **All-Sky images**. The project integrates methods from **computer vision**, **solar geometry**, and **statistical modeling** to quantify irradiance from sky luminance ï¿½ contributing to image-based forecasting in renewable energy.
 
 ---
 
@@ -13,7 +13,7 @@ The approach involves:
 -  **RGB-based segmentation** of sky, cloud, and sun areas
 -  **Luminance estimation** using hemispherical sampling and gamma correction
 -  **Zenith angle correction** based on astronomical position (via `pvlib`)
--  **Polynomial modeling** (degree 4), stratified by cloud coverage bins (0ï¿½100%)
+-  **Polynomial modeling** (degree 4), stratified by cloud coverage bins (0-100%)
 -  **Validation** against ground-truth data from a solarimetric station
 
 The methodology was applied to data from **Natal/RN, Brazil**, a coastal region with high atmospheric variability.
