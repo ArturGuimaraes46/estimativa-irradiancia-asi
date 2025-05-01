@@ -1,6 +1,6 @@
 #  ASI Solar Irradiance Estimation
 
-This repository contains the full pipeline developed by **Artur Guimarães**, a Master's student in Atmospheric and Climate Sciences and undergraduate in Electrical Engineering, for estimating **solar irradiance** using RGB **All-Sky images**. The project integrates methods from **computer vision**, **solar geometry**, and **statistical modeling** to quantify irradiance from sky luminance ï¿½ contributing to image-based forecasting in renewable energy.
+This repository contains the full pipeline developed by **Artur Guimarï¿½es**, a Master's student in Atmospheric and Climate Sciences and undergraduate in Electrical Engineering, for estimating **solar irradiance** using RGB **All-Sky images**. The project integrates methods from **computer vision**, **solar geometry**, and **statistical modeling** to quantify irradiance from sky luminance contributing to image-based forecasting in renewable energy.
 
 ---
 
