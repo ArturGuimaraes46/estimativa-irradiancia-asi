@@ -1,17 +1,21 @@
 # ASI Solar Irradiance Estimation 
  
-This project models solar irradiance using All-Sky Images with spectral segmentation and 4th-degree polynomial regression. 
+This project estimates solar irradiance using All-Sky images, combining computer vision, luminance correction, and polynomial modeling. 
  
-## Project Structure 
-- src/: Core Python scripts for modeling and segmentation 
-- data/: Raw and processed images and datasets 
-- notebooks/: Jupyter notebooks with experiments 
-- figures/: Graphs for analysis and papers 
+## ?? Project Structure 
+- **src/**: Python scripts for preprocessing, segmentation, modeling, and analysis 
+- **data/**: Raw and processed image datasets and solar station data 
+- **notebooks/**: Jupyter notebooks for exploratory analysis and testing 
+- **figures/**: Exported plots and charts 
  
-## How to Run 
+## ?? How to Run 
 1. Install dependencies: 
-    pip install -r requirements.txt 
-2. Run scripts or open notebooks. 
+   > pip install -r requirements.txt 
  
-## Author 
-Artur Guimar∆es - MSc. Climate Sciences and Solar Energy 
+2. Run notebooks in order, or execute scripts from `src/` directly. 
+ 
+## ????? Author 
+Artur Guimar∆es - MSc in Climate Sciences and Solar Energy Modeling 
+ 
+## ?? License 
+MIT License (see LICENSE file) 
